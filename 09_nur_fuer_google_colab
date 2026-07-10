@@ -1,0 +1,8 @@
+# Ordner erstellen
+
+import os
+
+# 1. Ordner "data" erstellen
+os.makedirs("data", exist_ok=True)
+
+# Anschließend Excel in Ordner laden
