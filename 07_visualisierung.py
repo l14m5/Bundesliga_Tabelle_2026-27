@@ -60,6 +60,41 @@ styled_tabelle = (
 
 display(styled_tabelle)
 
+# Europa League Wahrscheinlichkeit
+
+plt.figure(figsize=(10, 8))
+
+cl_plot = ergebnisse.sort_values("Europa League", ascending=True)
+
+plt.barh(
+    cl_plot["Verein"],
+    cl_plot["Europa League"]
+)
+
+plt.title("Europa-League-Wahrscheinlichkeit 2026/27")
+plt.xlabel("Wahrscheinlichkeit in %")
+plt.ylabel("Verein")
+
+plt.show()
+
+
+# Conference League Wahrscheinlichkeit
+
+plt.figure(figsize=(10, 8))
+
+cl_plot = ergebnisse.sort_values("Conference League", ascending=True)
+
+plt.barh(
+    cl_plot["Verein"],
+    cl_plot["Conference League"]
+)
+
+plt.title("Conference-League-Wahrscheinlichkeit 2026/27")
+plt.xlabel("Wahrscheinlichkeit in %")
+plt.ylabel("Verein")
+
+plt.show()
+
 
 # Übersicht
 
