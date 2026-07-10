@@ -29,6 +29,8 @@ Ziel des Projekts ist es, eine datenbasierte Bundesliga-Prognose zu erstellen, u
 ## Nutzung
 Die Excel-Datei muss im Ordner data/ liegen. Anschließend kann das Skript ausgeführt werden
 
+Sollte Google Colab verwendet werden, dann muss zuerst der Ordner data angelegt werden und das Dokument dort hochgeladen werden. Siehe Schritt 09_nur_für_google_colab.
+
 ## Datengrundlage
 Die Daten stammen aus einer Excel-Datei mit mehreren Tabellenblättern. Jedes Tabellenblatt enthält Daten zu einer Bundesliga-Saison, mit Angaben zu Platzierung, Punkte, Tore, Gegentore, Marktwert, Kadergröße, Transfers, Trainerwechsel und Aufsteiger.
 
