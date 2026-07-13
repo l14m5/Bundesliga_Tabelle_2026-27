@@ -1,0 +1,7 @@
+pandas Version: 2.2.2
+NumPy Version: 2.0.2
+scikit-learn Version: 1.6.1
+matplotlib Version: 3.10.0
+seaborn Version: 0.13.2
+openpyxl Version: 3.1.5
+
